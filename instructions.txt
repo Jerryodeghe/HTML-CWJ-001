@@ -1,0 +1,9 @@
+step to push your code to github
+
+1. git add . => ask git to track the changes you have made to your files
+2. git commit -m"the message for the commit" => Asking git to commit your changes to the repository
+3. git pull => Get all new changes in the remote(cloud) repository
+4. git push => Save your changes to the cloud repository
+
+The 4 steps in a single command
+git add . && git commit -m"your commit message" && git pull && git push
