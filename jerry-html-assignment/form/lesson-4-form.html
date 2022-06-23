@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML:Form</title>
+</head>
+<body>
+    <main>
+        <h3>Event Registration</h3>
+        <form action="#">
+            <section>
+                <label for="attendance">Do you plan to attend?&#42;</label> <br />
+                <input name="attendance" placeholder="yes" type="radio"> Yes<br />
+                <input name="attendance" placeholder="no" type="radio"> No<br />
+            </section>
+
+            <section>
+                <br />
+                <br />
+                <label for="name">Your Name&#42;</label>
+                <input placeholder="Femi" name="firstname" type="text">
+                <input placeholder="Falana" name="lastname" type="text">
+            </section>
+
+            <section>
+                <br />
+                <label for="email">Email&#42;</label> <br />
+                <input placeholder="jil@example.com" name="email" type="text">
+            </section>
+
+            <section>
+                <br />
+                <label for="guest">Guest&#42;</label>
+                <select name="guest" id="guest">
+                    <option value="friend">Friend</option>
+                    <option value="inlaw">Inlaw</option>
+                    <option value="other">Other</option>
+                </select>
+            </section>
+            <br />
+            <br />
+            <button type="submit">Submit</button>
+        </form>
+        <br />
+        <br />
+        <div>
+            <p>Made with &hearts; formjelly</p>
+        </div>
+        <br />
+        <br />
+    </main>
+</body>
+</html>
