@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.newletter {
+    font-size: 3rem;
+    color: rgb(255, 127, 80);
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.bottom-header {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.underline {
+    background-color: rgb(255, 127, 80);
+    height: 3px;
+    width: 65px;
+}
+
+.empty-box {
+    width: 100px;
+    height: 25px;
+    background-color: blue;
+}
