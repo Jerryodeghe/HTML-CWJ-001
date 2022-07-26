@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+.container {
+    width: 140px;
+    height: 100px;
+    background-color: goldenrod;
+    border: 3px solid brown;
+    padding: 2px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.box-1 {
+    width: 30px;
+    height: 30px;
+    background-color: greenyellow;
+}
+
+.box-2 {
+    width: 30px;
+    height: 30px;
+    background-color: purple;
+}
+
+.box-3 {
+    width: 30px;
+    height: 30px;
+    background-color: maroon;
+}

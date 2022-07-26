@@ -1,0 +1,13 @@
+.center {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+    margin-left: 43%;
+    width: 200px;
+    height: 200px;
+    background-color: #c3c3c3;
+}
